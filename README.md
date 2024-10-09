@@ -1,66 +1,57 @@
 # STARTEC
 Trabajos Introducción a la Adquisición de Datos.
 
-# This is a Heading h1
-## This is a Heading h2
-###### This is a Heading h6
+# Análisis Descriptivo en Python
 
-## Emphasis
+Este repositorio contiene un análisis descriptivo realizado con Python enmarcado en el
+proyecto de aula del curso Introducción a la adquisición y tratamiento de datos del
+programa de Ingeniería Informática de Aunar Villavicencio.
+El objetivo es explorar y visualizar datos utilizando técnicas estadísticas básicas para
+obtener información relevante.
 
-*This text will be italic*  
-_This will also be italic_
+## Tabla de Contenido
 
-**This text will be bold**  
-__This will also be bold__
+### 1. Fundamentos para el Análisis de Datos.
+### 2. Análisis Exploratorio: Tipos de datos.
+### 3. Análisis Descriptivo: Medidas de tendencia central:
+* a. Media Aritmética
+* b. Media Geométrica
+* c. Media Armónica
+* d. Media Ponderada
+* e. Mediana
+* f. Moda
+* g. Error típico o desviación estándar.
 
-_You **can** combine them_
+### 4. Visualización de datos:
+* a. Gráfico de barras
+* b. Gráfico circular
+* c. Histogramas
+* d. Boxplot
+* e. Scatterplot
+* f. Gráficos de dispersión
+_
+### 5. Aplicación.
 
-## Lists
+## Tecnologías utilizadas
 
-### Unordered
+* #### Python 3.x
+* #### Bibliotecas:
 
-* Item 1
-* Item 2
-* Item 2a
-* Item 2b
-
-### Ordered
-
-1. Item 1
-2. Item 2
-3. Item 3
-    1. Item 3a
-    2. Item 3b
-
-## Images
-
-![This is an alt text.](/image/sample.webp "This is a sample image.")
-
-## Links
-
-You may be using [Markdown Live Preview](https://markdownlivepreview.com/).
-
-## Blockquotes
-
-> Markdown is a lightweight markup language with plain-text-formatting syntax, created in 2004 by John Gruber with Aaron Swartz.
+>> #### o pandas: Para la manipulación y análisis de datos.
 >
->> Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.
+>> #### o numpy: Para cálculos numéricos.
+>
+>> #### o matplotlib y seaborn: Para la visualización de datos.
+>
+>> #### o scipy y statsmodels: Para cálculos estadísticos.
 
-## Tables
+## Descripción del análisis
 
-| Left columns  | Right columns |
-| ------------- |:-------------:|
-| left foo      | right foo     |
-| left bar      | right bar     |
-| left baz      | right baz     |
+Este proyecto aborda las siguientes etapas:
 
-## Blocks of code
-
-```
-let message = 'Hello world';
-alert(message);
-```
-
-## Inline code
-
-This web site is using `markedjs/marked`.
+#### 1. Fundamentos: Introducción a conceptos básicos del curso.
+#### 2. Carga de datos: Importación y limpieza de los datos.
+#### 3. Exploración inicial: Análisis exploratorio de variables numéricas y categóricas.
+#### 4. Visualización de datos: Gráficos y tablas para resumir las características principales.
+#### 5. Estadísticas descriptivas: Cálculo de medidas como la media, mediana, desviación estándar, percentiles, etc.
+#### 6. Conclusiones: Observaciones clave derivadas del análisis.
